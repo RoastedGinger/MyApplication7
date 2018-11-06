@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="create">"Don't have an account yet?\ncreate one"</string>
+</resources>

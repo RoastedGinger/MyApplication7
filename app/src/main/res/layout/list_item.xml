@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+   <TextView
+       android:layout_width="150sp"
+       android:layout_height="30sp"
+       android:text="complaintId"
+       android:textSize="20sp"
+       android:background="@drawable/borderflat"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:id="@+id/c_box"/>
+
+        <TextView
+            android:id="@+id/idno"
+            android:layout_width="match_parent"
+            android:text="3456666"
+            android:background="@drawable/borderflat"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:background="@drawable/borderflat"
+        android:layout_height="100sp"
+        android:maxLength="100"
+        android:gravity="top|start"
+        android:padding="10sp"
+        android:hint="message here"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view"
+        android:id="@+id/submit"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+
+</LinearLayout>
